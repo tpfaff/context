@@ -1,0 +1,966 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+	background-color:#fff;
+	word-wrap: break-word;
+
+}
+
+h4.inthenewsa {
+	margin-top: -1.5em;
+}
+
+.wf-loading .slidehedmain, .wf-loading .lead, .wf-loading {
+    /* Hide the blog title and post titles while web fonts are loading */
+    visibility: hidden;
+}
+
+
+.insightmainbox h1, .insightmainbox h2, .insightmainbox h3, .insightmainbox h4 {
+	line-height: 2em;
+}
+
+h2.insighttitle {
+	line-height: 1em;
+}
+
+.blog h2.insighttitle {
+		margin-bottom: none;
+}
+
+.centeredteam {
+	text-align:center;
+}
+
+.timelinesingle {
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+.teammembersingle {
+	color: #999999;
+}
+
+.leadercolumn {
+	margin-bottom: 3em;
+
+}
+
+
+.leadername {
+	color: #101010;
+	font-weight: 400;
+	font-size: 1.75em;
+}
+
+
+.commentsheader {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+
+
+.teamcolumn img.img-circle {
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-ms-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition: 0.1s ease;
+	-moz-transition: 0.1s ease;
+	-ms-transition: 0.1s ease;
+	-o-transition: 0.1s ease;
+	transition: 0.1s ease;
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+.teamcolumn img.img-circle:hover {
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-ms-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-ms-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	transition: 0.3s ease;
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+
+}
+
+p.leaderbio {
+	text-align: left;
+}
+
+.taglinefooter {
+	color: #a1d5eb;
+	font-size: 1.5em;
+	font-family: "stratum-1-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.25em;
+	letter-spacing: normal;
+	
+}
+
+.homecompany a:hover {
+	color: #fff;
+}
+
+.casestudyappicon {
+	margin-top: 15px;
+}
+
+img.appiconmorework {
+	width: 50%;
+}
+
+.slidewrap {
+	min-height: 20em;
+}
+
+.fb_iframe_widget  {
+	background-color: #fff;
+}
+
+.teammembersingle {
+	margin-bottom:  2em;
+
+}
+
+.casestudydescription {
+	margin-top: -20px;
+}
+
+.commentsection {
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/page_title_bg.jpg) repeat;
+	position: relative;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: -1px;
+}
+
+.iphonegallery_cs {
+	position: relative;
+	z-index: 99999;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/iphone_gallery_frontground.png) no-repeat;
+	background-size: 100%;
+	height: 773px;
+}
+
+.iphone5gallery_cs {
+	position: relative;
+	z-index: 99999;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/iphone_gallery_5_foreground.jpg) no-repeat;
+	background-size: 100%;
+	height: 840px;
+}
+
+.iphonegallery1 {
+	padding-top: 43%;
+}
+
+.iphone5gallery {
+	padding-top: 37%;
+}
+
+.ipadgallery_cs {
+	position: relative;
+	z-index: 99999;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/ipad_frontground.jpg) no-repeat;
+	background-size: 100%;
+	height: 852px;
+}
+
+.ipadgallery1 {
+	padding-top: 10%;
+}
+
+
+.pagetemplategray {
+	background-color: #f9f9f9;
+	position: relative;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: -1px;
+}
+
+.tweetview_widget ul li{
+	list-style: none;
+}
+
+
+.tweetview_widget ul{
+	margin-left: 0px;
+}
+
+.tweetview-widget-tweettext {
+	font-size: 1.125em;
+	line-height: 1.5em;
+}
+
+ul#tweetview_tweetlist {
+	margin-bottom: 1.5em;
+}
+.socialsharing {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	min-height: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.blue {
+	color: #0394cb;
+}
+
+
+.downloadarticle {
+	background-color: #0394cb;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	min-height: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	-webkit-border-top-left-radius : 0px 0px;
+    -webkit-border-bottom-left-radius : 15px 15px;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-ms-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	transition: 0.2s ease;
+	
+}
+
+.arrowleft {
+	float: left;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/icon-prev-medium.png) no-repeat;
+width: 45px;
+height: 66px;
+}
+
+.arrowright {
+	float: right;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/icon-next-medium.png) no-repeat;
+	width: 45px;
+height: 66px;
+}
+
+.arrowright:hover, .arrowleft:hover {
+	opacity: .5;
+}
+
+.btn-primary {
+    background-repeat:repeat-x;
+    color: #fff;
+    background-color: #0394cb;
+    padding: 5px 20px 5px 20px;
+    z-index : 0;
+    -webkit-border-top-left-radius : 0px 0px;
+    -webkit-border-bottom-left-radius : 15px 15px;
+    display : block;
+    text-align:center;
+    line-height : 30px;
+	margin-bottom: 2em;
+	display: block;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-ms-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	transition: 0.2s ease;
+}
+.btn-primary:hover {
+	display: block;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-ms-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	transition: 0.2s ease;
+	margin-left: 15px;
+	    color: #fff;
+    background-color: #62d2ef;
+    *background-color: #62d2ef;
+}
+
+
+
+.downloadarticle img {
+	margin-top: -5px;
+}
+
+.previouspostlinkbox {
+	min-height: 3em;
+	margin-bottom: 3em;
+}
+
+.nextpostlinkbox {
+	min-height: 3em;
+	text-align: right;
+}
+
+.singleinsightprevpostnav {
+	padding: .25em 4em 0em 4em;
+}
+
+.insighttypebuttons {
+	float: left;
+	margin-top: 1.75em;
+}
+
+.insightsinglelinebottom {
+	border-top: 1px dotted #DDD;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+.insightsingletitleoverfeaturedimage .insightsinglelinebottom {
+	margin-bottom: -4em;
+}
+
+.insightline {
+	border-top: 1px dotted #DDD;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.insighttypebuttons a {
+	float: left;
+	padding: 5px 10px 5px 10px;
+	background-color:#ddd;
+	color: #999;
+	margin-left: 1.5em;
+	margin-bottom:  1em;
+}
+
+.insighttypebuttons a:hover {
+	background-color:#0394CB;
+	color: #fff;
+	text-decoration:none;
+
+}
+
+.page h2 {
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+#dpe_fp_widget-2 .span3 {
+	margin: none;
+}
+
+.similarinsights {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	border-top: 1px dotted #DDD;
+	border-bottom: 1px dotted #DDD;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.teamcolumn {
+	margin-top:  2em;
+	margin-bottom: 2em;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+.blog #banner, .single #banner, .page #banner, .archive #banner { 
+}
+
+
+.home #banner { 
+margin-bottom: 0px;
+}
+
+
+.single-case_study #banner {
+	margin-bottom: 20px;
+}
+/* Fixed Topbar Navigation */
+body.top-navbar {  }
+body.admin-bar .navbar-fixed-top { top: 28px; }
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+#content { 
+
+}
+
+h1.slidehedmain {
+	margin-bottom: 40px;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.75);
+}
+.carousel-caption p {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.75);
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+}
+
+.insightsingletitle {
+	color: #333;
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: 300;
+	float: left;
+}
+
+.insightlargetext p {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+.insightlargetext p strong {
+	font-weight: bold;
+}
+
+.insightlargetext h3 {
+	font-size: 2em;
+	line-height: 1.5em;
+	margin-bottom: 2em;
+}
+
+.meta ul {
+	margin-left: 0px;
+}
+
+.meta ul li a {
+	text-decoration: none;
+	color: #999;
+}
+
+.meta ul li a:hover {
+	color: #0394CB;
+}
+
+.marker_de {
+	width: 158px;
+	height: 48px;
+}
+
+
+
+.insightmainbox {
+	padding-top: 2em;
+	clear: both;
+	float: left;
+	padding-bottom: 4em;
+}
+
+
+
+
+
+
+#post-nav {
+	padding: 1em;
+}
+
+.paginationbg {
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	-ms-border-top-left-radius: 10px;
+	-o-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-ms-border-top-right-radius: 10px;
+	-o-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/page_title_bg.jpg) repeat;
+}
+
+.paginationbg a:hover {
+	text-decoration:none;
+}
+
+ul.dpe-flexible-posts {
+	margin:0px;
+}
+
+.single .insightmainbox {
+	padding-top: -2em;
+}
+
+.smallclientimg {
+	width: 50%;
+	margin-left: 23%;
+}
+
+
+
+.simple-social-icons ul li.social-pinterest a:hover {
+	background-color: #cc1c1f;
+}
+.simple-social-icons ul li.social-facebook a:hover {
+	background-color: #3a5799;
+}
+.simple-social-icons ul li.social-instagram a:hover {
+	background-color: #48769e;
+}
+.simple-social-icons ul li.social-twitter a:hover {
+	background-color: #00bdf8;
+}
+.simple-social-icons ul li.social-youtube a:hover {
+	background-color: #c60700;
+}
+
+.instagram-photo {
+	height: 400px;
+	width: 400px;
+	margin: auto;
+}
+
+.homecompanyblackfade {
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/homecompanyblackfade.png) bottom repeat-x;
+}
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+#main { 
+}
+
+h2.aboutushome {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: #fff;
+	text-align: center;
+	font-size: 1.75em;
+	font-family: "stratum-1-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.25em;
+	letter-spacing: normal;
+}
+
+.casestudyh1 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #fff;
+	font-size: 4em;
+	font-family: "stratum-1-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1em;
+}
+
+.casestudyh1black {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 4em;
+	font-family: "stratum-1-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1em;
+}
+
+h2.insightsinglebigquote {
+	font-weight:300;
+	font-size: 2.5em;
+	line-height: 1.25em;
+	margin-bottom: 1em;
+}
+
+.casestudywhite {
+	color: #fff;
+}
+
+.casestudywhitebig {
+	color: #fff;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+p.csblacktextmedium {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.divider {
+	height: 1px;
+	background-color: #1ea0d9;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+#content-info .widget_text p {
+	font-size: 15px;
+	line-height: 26px;
+}
+
+.casestudystrong {
+	font-size: 4em;
+	font-family: "stratum-1-web",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1em;
+}
+
+.searchbox {
+	position: absolute;
+	right: 0;
+	top: 110px;
+	line-height: 1em;
+}
+
+.carousel-tabs li a:hover{
+	color: #0394CB;
+}
+
+
+.nav li.slick-slidetoggle a {
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/search.png) no-repeat;
+	height: 23px;
+	width: 23px;
+	margin-left: 35px;
+
+}
+
+
+
+.nav li.slick-slidetoggle a:hover {
+	border-bottom: none;
+	background-color: transparent;
+}
+
+.copyright {
+	text-align: right;
+}
+
+#menu-secondary-navigation, .copyright {
+	font-size: 12px;
+	padding-bottom: 1em;
+	margin-top: 50px;
+}
+
+.copyright {
+	margin-top: 47px;
+	float: right;
+	margin-left: 10px;
+}
+
+.toggle-search {
+	float: right;
+	height: 40px;
+	margin-top: -20px;
+	z-index: 9999;
+	padding-left: 20px;
+
+}
+
+.bxslider h2 a {
+	color: #000000;
+	font-weight: 300;
+	 text-decoration: none;
+}
+
+.bxslider h2 a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.insightalignmiddle {
+	width: 200px;
+	margin: auto;
+}
+
+a.viewallinsights{
+	background-color: #ccc;
+	text-align:center;
+	padding: 1em;
+	-webkit-border-top-left-radius : 10px 10px;
+    -webkit-border-top-right-radius : 10px 10px;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-ms-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	transition: 0.2s ease;
+	margin-left: 27px;
+	color: #fff;
+	text-decoration:none;
+}
+
+
+.viewallinsights a:hover {
+	display: block;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-ms-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	transition: 0.2s ease;
+	margin-top: -15px;
+	text-decoration:none;
+	background-color: #fff;
+}
+
+.insighthomenav {
+	color: #ccc;
+}
+
+.insighthomenav a {
+	color: #ccc;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1em;
+}
+
+.insighthomenav a:hover {
+	color: #08C;
+	text-decoration:none;
+}
+
+.viewallinsights:hover {
+	background-color: #08C;
+}
+
+.viewallinsights a, .viewallinsights a:hover{
+	color: #fff;
+	text-decoration:none;
+}
+.insighthomenav {
+	text-align: center;
+}
+
+.widget {
+	margin-bottom: 2em;
+}
+
+.twtr-tweets {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75em;
+}
+
+.twtr-tweet {
+	padding: .75em;
+}
+
+.single-case_study .commentsection {
+	margin-top: 4em;
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.home #sidebar {
+	display: none;
+
+}
+
+.recentpoststag {
+	margin-top: 7px;
+}
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry p.byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer#content-info .widget a, footer#content-info .widget p {
+	color: #fff  !important;
+}
+
+.home #content-info, .blog #content-info, .single-post #content-info, .category #content-info, .page #content-info, .search #content-info, .single-case_study #content-info, .archive #content-info, .error404 #content-info, .single #content-info {
+	min-height: 350px;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/footerbg.png) center top no-repeat;
+	padding-top: 5em;
+	color: #fff !important;
+	position: relative;
+	margin-top: -40px;
+	z-index: 0;
+	margin-bottom: -35px;
+}
+
+#content-info {
+	min-height: 400px;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/footerbg.png) center top no-repeat;
+	padding-top: 5em;
+	color: #fff;
+	position: relative;
+	z-index: 0;
+	margin-top: 2em;
+	
+}
+
+#content-info .container .widget h4 {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.insighttags {
+	width: 100%;
+	float: right;
+	color: #dddddd;
+}
+
+
+.form-search {
+	float: right;
+	position: absolute;
+	top: 57px;
+	right: 0px;
+}
+
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none;
+}
+
+
+
+
+/* placeholder */
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* demo B */
+input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+	background: url(/web/20130629061628im_/http://www.doubleencore.com/assets/img/search.png) no-repeat 9px center;
+	border: none;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+
+}
+input[type=search]:hover {
+}
+input[type=search]:focus {
+	width: 130px;
+	padding-left: 40px;
+	color: #fff;
+	background-color: #0394CB;
+	cursor: auto;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input:-moz-placeholder {
+	color: transparent;
+}
+input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 979px) {
+  /* Fix top padding when using the responsive grid with the fixed topbar */
+  body.top-navbar {
+    padding-top: 0;
+  }
+}
+/*
+     FILE ARCHIVED ON 06:16:28 Jun 29, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:02:43 May 14, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 171.904
+  exclusion.robots: 0.135
+  exclusion.robots.policy: 0.124
+  RedisCDXSource: 2.0
+  esindex: 0.009
+  LoadShardBlock: 141.889 (3)
+  PetaboxLoader3.datanode: 147.376 (4)
+  CDXLines.iter: 24.893 (3)
+  load_resource: 224.837
+  PetaboxLoader3.resolve: 185.848
+*/

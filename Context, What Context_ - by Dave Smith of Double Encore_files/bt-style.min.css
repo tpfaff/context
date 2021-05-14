@@ -1,0 +1,190 @@
+/* Full list widget */
+
+.oe-bt-widget-full-list {
+display: inline-block;
+position: relative;
+background: #fff;
+border-top: 1px #ebebeb solid;
+border-bottom: 1px #ebebeb solid;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+
+.oe-bt-thumbs-select {
+list-style: none;
+margin: 10px;
+padding: 0;
+}
+
+.oe-bt-thumbs-select li {
+float: left;
+padding: 5px;
+margin: 10px;
+width: 250px;
+height: 250px;
+max-height: 250px;
+max-width: 250px;
+}
+
+.oe-bt-thumbs-select li:hover {
+}
+
+.oe-bt-thumbs-select li.bt-selected {
+}
+
+.oe-bt-thumbs-select li img {
+width: 250px;
+height: 250px;
+max-height: 250px;
+max-width: 250px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+border-radius: 150px;
+}
+
+.oe-bt-content-hide {
+display: none;
+}
+
+.oe-bt-content-show {
+position: relative;
+padding: 20px;
+}
+
+.oe-bt-content-show p {
+display: inline-block;
+}
+
+/* Full list widget - vertival */
+
+.oe-bt-widget-full-list-vertical {
+display: inline-block;
+position: relative;
+background: #fff;
+}
+
+.oe-bt-thumbs-select-vertical {
+list-style: none;
+margin: 10px;
+padding: 0;
+width: 100px;
+float: left;
+}
+
+.oe-bt-thumbs-select-vertical li {
+padding: 5px;
+margin: 15px 20px 20px;
+width: 250px;
+height: 250px;
+max-height: 250px;
+max-width: 250px;
+}
+
+.oe-bt-thumbs-select-vertical li:hover {
+background: #99BF63;
+}
+
+.oe-bt-thumbs-select-vertical li.bt-selected {
+background: #99BF63;
+}
+
+.oe-bt-thumbs-select-vertical li img {
+width: 250px;
+height: 250px;
+max-height: 250px;
+max-width: 250px;
+-webkit-border-radius: 35px;
+-moz-border-radius: 35px;
+border-radius: 35px;
+}
+
+.oe-bt-content-show-vertical {
+position: relative;
+padding: 20px;
+margin-left: 115px;
+}
+
+.oe-bt-content-show p {
+display: inline-block;
+}
+
+/* Table list widget */
+
+.oe-bt-widget-table-list {
+display: inline-block;
+position: relative;
+background: #fff;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+.oe-bt-table {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.oe-bt-table li {
+position: relative;
+min-height: 80px;
+padding: 10px;
+}
+
+.oe-bt-table-thumb {
+padding: 5px;
+top: 10px;
+width: 250px;
+height: 250px;
+max-height: 250px;
+max-width: 250px;
+position: absolute;
+}
+
+.oe-bt-table-content {
+margin-left: 100px;
+}
+
+.oe-bt-table-thumb img {
+width: 250px;
+height: 250px;
+max-height: 250px;
+max-width: 250px;
+-webkit-border-radius: 35px;
+-moz-border-radius: 35px;
+border-radius: 35px;
+}
+
+.oe-bt-table li:hover > .oe-bt-table-thumb {
+background: #99BF63;
+}
+
+/* General */
+
+.bt-clear {
+clear: both;
+}
+
+.bt-even {
+background: #F1F1F1;
+}
+/*
+     FILE ARCHIVED ON 05:21:36 Jun 29, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:02:43 May 14, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 159.588
+  exclusion.robots: 0.131
+  exclusion.robots.policy: 0.12
+  RedisCDXSource: 3.863
+  esindex: 0.009
+  LoadShardBlock: 125.977 (3)
+  PetaboxLoader3.datanode: 115.047 (4)
+  CDXLines.iter: 25.193 (3)
+  load_resource: 158.531
+  PetaboxLoader3.resolve: 113.494
+*/

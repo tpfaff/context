@@ -1,0 +1,26 @@
+<esi:comment text="----------------MASTER ----------------"/>
+
+<esi:comment text="----------------ESI LOGIC----------------"/>
+
+<esi:choose>
+	<esi:when test="$(QUERY_STRING{app})=='all'">
+		$(QUERY_STRING{cb})({cns:<esi:include src="./cns2.esi"/>,snapsets:<esi:include src="./snapsets2.esi"/>,migration:<esi:include src="./migration2.esi"/>});
+	</esi:when>
+	<esi:when test="$(QUERY_STRING{app})=='snapsets'">
+		<esi:include src="./snapsets.esi"/>
+	</esi:when>
+	<esi:when test="$(QUERY_STRING{app})=='cns'">
+		<esi:include src="./cns.esi"/>
+	</esi:when>
+	<esi:when test="$(QUERY_STRING{app})=='migration'">
+		<esi:include src="./migration.esi"/>
+	</esi:when>
+	<esi:when test="$(QUERY_STRING{app})=='qa'">
+		<esi:include src="./qa.esi"/>
+	</esi:when>
+	<esi:when test="$(QUERY_STRING{app})=='qa2'">
+		<esi:include src="./qa2.esi"/>
+	</esi:when>
+</esi:choose>
+
+<esi:comment text="----------------ESI LOGIC (END)----------------"/>
